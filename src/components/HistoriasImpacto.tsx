@@ -18,8 +18,8 @@ const HistoriasImpacto: React.FC = () => {
             <div className="text-center">
               <div className="text-6xl mb-6">📌</div>
               <blockquote className="text-lg sm:text-xl lg:text-2xl text-gray-700 leading-relaxed mb-8 italic">
-                "Com a Verdessência, conseguimos reduzir em 30% nosso consumo de produtos de limpeza, 
-                melhoramos a saúde da equipe e conquistamos reconhecimento em práticas ESG."
+                &ldquo;Com a Verdessência, conseguimos reduzir em 30% nosso consumo de produtos de limpeza, 
+                melhoramos a saúde da equipe e conquistamos reconhecimento em práticas ESG.&rdquo;
               </blockquote>
               <cite className="text-base sm:text-lg font-semibold text-gray-800">
                 — Cliente XYZ
