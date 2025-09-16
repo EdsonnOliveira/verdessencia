@@ -22,8 +22,8 @@ const Solucoes: React.FC = () => {
     },
     {
       icone: (
-        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+        <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2l2.5 5.5L20 8l-4.5 4.5L17 18l-5-2.5L7 18l1.5-5.5L4 8l5.5-.5L12 2z"/>
         </svg>
       ),
       titulo: "Revenda de Produtos Sustentáveis",
@@ -50,7 +50,7 @@ const Solucoes: React.FC = () => {
     {
       icone: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
         </svg>
       ),
       titulo: "Certificação e Selo de Boas Práticas",
@@ -71,7 +71,7 @@ const Solucoes: React.FC = () => {
           {solucoes.map((solucao, index) => (
             <div key={index} className="bg-white rounded-[20px] p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow duration-200">
               <div className="text-center mb-4">
-                <div className="flex items-center justify-center w-20 h-20 bg-green-500 rounded-full mb-6 mx-auto shadow-lg">
+                <div className="flex items-center justify-center w-20 h-20 rounded-full mb-6 mx-auto shadow-lg" style={{backgroundColor: '#56a263'}}>
                   <div className="text-white">
                     {solucao.icone}
                   </div>
