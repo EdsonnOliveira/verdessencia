@@ -58,6 +58,18 @@ const Header: React.FC = () => {
               Soluções
             </button>
             <button 
+              onClick={() => scrollToSection('cases')}
+              className="text-gray-800 hover:text-primary transition-colors duration-200"
+            >
+              Cases
+            </button>
+            <button 
+              onClick={() => scrollToSection('diferenciais')}
+              className="text-gray-800 hover:text-primary transition-colors duration-200"
+            >
+              Diferenciais
+            </button>
+            <button 
               onClick={() => scrollToSection('contato')}
               className="text-gray-800 hover:text-primary transition-colors duration-200"
             >
@@ -67,16 +79,6 @@ const Header: React.FC = () => {
 
           {/* Desktop Right Section */}
           <div className="hidden lg:flex items-center space-x-4">
-            {/* Phone Number */}
-            <div className="flex items-center space-x-2 bg-white border border-gray-200 rounded-full px-3 py-2">
-              <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-                <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                </svg>
-              </div>
-              <span className="text-sm font-medium text-gray-800">+55 (11) 99999-9999</span>
-            </div>
-
             {/* Free Quote Button */}
             <button 
               onClick={() => scrollToSection('chamado-final')}
@@ -137,23 +139,23 @@ const Header: React.FC = () => {
                 Soluções
               </button>
               <button 
+                onClick={() => scrollToSection('cases')}
+                className="block w-full text-left px-4 py-2 text-gray-800 hover:bg-gray-50 hover:text-primary transition-colors duration-200"
+              >
+                Cases
+              </button>
+              <button 
+                onClick={() => scrollToSection('diferenciais')}
+                className="block w-full text-left px-4 py-2 text-gray-800 hover:bg-gray-50 hover:text-primary transition-colors duration-200"
+              >
+                Diferenciais
+              </button>
+              <button 
                 onClick={() => scrollToSection('contato')}
                 className="block w-full text-left px-4 py-2 text-gray-800 hover:bg-gray-50 hover:text-primary transition-colors duration-200"
               >
                 Contato
               </button>
-              
-              {/* Mobile Phone Number */}
-              <div className="px-4 py-2 border-t border-gray-200 mt-2">
-                <div className="flex items-center space-x-2">
-                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-                    <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                    </svg>
-                  </div>
-                  <span className="text-sm font-medium text-gray-800">+55 (11) 99999-9999</span>
-                </div>
-              </div>
             </nav>
           </div>
         )}

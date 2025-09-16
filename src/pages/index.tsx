@@ -6,6 +6,7 @@ import ParaQuem from "@/components/ParaQuem";
 import Solucoes from "@/components/Solucoes";
 import Diferenciais from "@/components/Diferenciais";
 import HistoriasImpacto from "@/components/HistoriasImpacto";
+import PorQueSerSustentavel from "@/components/PorQueSerSustentavel";
 import ChamadoFinal from "@/components/ChamadoFinal";
 import Footer from "@/components/Footer";
 
@@ -26,6 +27,7 @@ export default function Home() {
       </div>
       <Diferenciais />
       <HistoriasImpacto />
+      <PorQueSerSustentavel />
       <div id="chamado-final">
         <ChamadoFinal />
       </div>
