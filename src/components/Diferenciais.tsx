@@ -22,7 +22,7 @@ const Diferenciais: React.FC = () => {
             <div className="space-y-4">
               {diferenciais.map((diferencial, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <div className="w-6 h-6 sm:w-7 sm:h-7 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 sm:w-7 sm:h-7 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <span className="text-white text-sm sm:text-base font-bold">✓</span>
                   </div>
                   <p className="text-gray-700 text-base sm:text-lg leading-relaxed">

@@ -29,7 +29,7 @@ const ChamadoFinal: React.FC = () => {
             </div>
             
             <div className="pt-4">
-              <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-6 sm:px-8 rounded-full transition-colors duration-200 cursor-pointer text-base sm:text-lg">
+              <button className="bg-primary hover:bg-secondary text-white font-bold py-3 px-6 sm:px-8 rounded-full transition-colors duration-200 cursor-pointer text-base sm:text-lg">
                 👋 Solicite sua consultoria gratuita
               </button>
             </div>

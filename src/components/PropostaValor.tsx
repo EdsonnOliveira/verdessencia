@@ -26,7 +26,7 @@ const PropostaValor: React.FC = () => {
           {beneficios.map((beneficio, index) => (
             <div key={index} className="bg-white rounded-[20px] p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow duration-200">
               <div className="flex items-start gap-4">
-                <div className="w-6 h-6 sm:w-7 sm:h-7 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 sm:w-7 sm:h-7 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <span className="text-white text-sm sm:text-base font-bold">✓</span>
                 </div>
                 <p className="text-gray-700 text-sm sm:text-base leading-relaxed">

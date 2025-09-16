@@ -34,7 +34,7 @@ const ParaQuem: React.FC = () => {
             <div className="space-y-3">
               {segmentos.map((segmento, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
                   <span className="text-gray-700 text-base sm:text-lg">{segmento}</span>
                 </div>
               ))}
