@@ -15,7 +15,7 @@ const ChamadoFinal: React.FC = () => {
           {/* Conteúdo de texto */}
           <div className="space-y-6 order-1 lg:order-2">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
-              Entre em contato
+              Entre em contato 
             </h2>
             
             <div className="space-y-6 text-gray-600 text-base sm:text-lg leading-relaxed">
