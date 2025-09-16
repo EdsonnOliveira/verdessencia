@@ -58,16 +58,16 @@ const Header: React.FC = () => {
               Soluções
             </button>
             <button 
-              onClick={() => scrollToSection('cases')}
-              className="text-gray-800 hover:text-primary transition-colors duration-200"
-            >
-              Cases
-            </button>
-            <button 
               onClick={() => scrollToSection('diferenciais')}
               className="text-gray-800 hover:text-primary transition-colors duration-200"
             >
               Diferenciais
+            </button>
+            <button 
+              onClick={() => scrollToSection('cases')}
+              className="text-gray-800 hover:text-primary transition-colors duration-200"
+            >
+              Cases
             </button>
             <button 
               onClick={() => scrollToSection('contato')}
@@ -139,16 +139,16 @@ const Header: React.FC = () => {
                 Soluções
               </button>
               <button 
-                onClick={() => scrollToSection('cases')}
-                className="block w-full text-left px-4 py-2 text-gray-800 hover:bg-gray-50 hover:text-primary transition-colors duration-200"
-              >
-                Cases
-              </button>
-              <button 
                 onClick={() => scrollToSection('diferenciais')}
                 className="block w-full text-left px-4 py-2 text-gray-800 hover:bg-gray-50 hover:text-primary transition-colors duration-200"
               >
                 Diferenciais
+              </button>
+              <button 
+                onClick={() => scrollToSection('cases')}
+                className="block w-full text-left px-4 py-2 text-gray-800 hover:bg-gray-50 hover:text-primary transition-colors duration-200"
+              >
+                Cases
               </button>
               <button 
                 onClick={() => scrollToSection('contato')}
