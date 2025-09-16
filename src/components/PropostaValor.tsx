@@ -2,7 +2,7 @@ import React from 'react';
 
 const PropostaValor: React.FC = () => {
   const beneficios = [
-    "Transição inteligente de produtos convencionais para soluções sustentáveis",
+    "Transição de produtos para soluções sustentáveis",
     "Redução de impactos ambientais e riscos à saúde",
     "Otimização no consumo de materiais de limpeza",
     "Conformidade com legislações ambientais e normas ESG",
