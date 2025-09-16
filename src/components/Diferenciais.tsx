@@ -3,7 +3,7 @@ import React from 'react';
 const Diferenciais: React.FC = () => {
   const diferenciais = [
     "Expertise técnica e consultiva em sustentabilidade",
-    "Rede de parcerias com fabricantes e certificadoras reconhecidas",
+    "Rede de parcerias com fabricantes e certificadoras",
     "Relatórios claros, objetivos e auditáveis",
     "Selo exclusivo de Boas Práticas Verdessência",
     "Suporte próximo, humano e contínuo"
