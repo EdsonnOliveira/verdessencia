@@ -17,7 +17,7 @@ const ParaQuem: React.FC = () => {
           {/* Imagem */}
           <div className="relative order-2 lg:order-1">
             <div 
-              className="w-full h-64 sm:h-80 lg:h-96 rounded-[20px] sm:rounded-[30px] lg:rounded-[40px] bg-[url('/image3.jpg')] bg-cover bg-center"
+              className="w-full aspect-[5/4] rounded-[20px] sm:rounded-[30px] lg:rounded-[40px] bg-[url('/image3.jpg')] bg-cover bg-center"
             ></div>
           </div>
           
